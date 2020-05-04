@@ -24,10 +24,10 @@ def di_scoring(y_true, y_score,accu):
 
 
 #example
-from sklearn.metrics import accuracy_score #calculate accuracy of truth vs prediction.
+#from sklearn.metrics import accuracy_score #calculate accuracy of truth vs prediction.
 
-train_adm,train_aem,train_di = di_scoring(y_train,y_trainprobability,accuracy_score(y_train,y_fit))
-test_adm,test_aem,test_di = di_scoring(y_test,y_testprobability,accuracy_score(y_test,y_pred))
+#train_adm,train_aem,train_di = di_scoring(y_train,y_trainprobability,accuracy_score(y_train,y_fit))
+#test_adm,test_aem,test_di = di_scoring(y_test,y_testprobability,accuracy_score(y_test,y_pred))
 
-print('train_adm,train_aem,tran_di',train_adm,train_aem,train_di)
-print('test_adm,test_aem,test_di',test_adm,test_aem,test_di)
+#print('train_adm,train_aem,tran_di',train_adm,train_aem,train_di)
+#print('test_adm,test_aem,test_di',test_adm,test_aem,test_di)
